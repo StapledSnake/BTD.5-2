@@ -4,9 +4,6 @@ import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
 public class Launcher
 {
     public static void main (String[] args) {
-        // To start a LibGDX program, this method:
-        // (1) creates an instance of the game
-        // (2) creates a new application with game instance and window settings as arguments
         MyGame game = new MyGame();
         Lwjgl3Application launcher = new Lwjgl3Application(game, getDefaultConfiguration());
     }
