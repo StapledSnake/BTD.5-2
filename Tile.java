@@ -1,3 +1,5 @@
+package com.mygame;
+
 public class Tile {
     public enum TileType { LAND, PATH, WATER }
 
@@ -17,6 +19,7 @@ public class Tile {
     }
 
     public void setTower(Tower tower) { this.towerOnTile = tower; }
+    public void setType(TileType type) { this.type = type; }
     public TileType getType() { return type; }
     public float getX() { return x; }
     public float getY() { return y; }
